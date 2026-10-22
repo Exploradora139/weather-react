@@ -1,6 +1,5 @@
 import React from "react";
-import weather from "./weather";
-
+import Weather from "./Weather-app";
 import "./App.css";
 
 function App() {
@@ -9,7 +8,7 @@ function App() {
       <header className="App-header">
         <h1>Welcome to React</h1>
 
-        <weather city="Los Angeles" />
+        <Weather city="Los Angeles" />
       </header>
     </div>
   );
